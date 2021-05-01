@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9824BF784A9671A1D41D6CE7 /* Pods_WhatsNewScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049A224B9226F0FB7FDFF87A /* Pods_WhatsNewScreen.framework */; };
 		A340C090263DD691001DCE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A340C08F263DD691001DCE94 /* AppDelegate.swift */; };
 		A340C092263DD691001DCE94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A340C091263DD691001DCE94 /* SceneDelegate.swift */; };
 		A340C094263DD691001DCE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A340C093263DD691001DCE94 /* ViewController.swift */; };
 		A340C097263DD691001DCE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A340C095263DD691001DCE94 /* Main.storyboard */; };
 		A340C099263DD694001DCE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A340C098263DD694001DCE94 /* Assets.xcassets */; };
 		A340C09C263DD694001DCE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A340C09A263DD694001DCE94 /* LaunchScreen.storyboard */; };
+		A340C0AB263DE179001DCE94 /* screenshot_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A340C0A9263DE179001DCE94 /* screenshot_2.png */; };
+		A340C0AC263DE179001DCE94 /* screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A340C0AA263DE179001DCE94 /* screenshot_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049A224B9226F0FB7FDFF87A /* Pods_WhatsNewScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsNewScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C346CE6B1C447C66EC2BD5F /* Pods-WhatsNewScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNewScreen.debug.xcconfig"; path = "Target Support Files/Pods-WhatsNewScreen/Pods-WhatsNewScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		36C92C509DD34AF3B06C2999 /* Pods-WhatsNewScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNewScreen.release.xcconfig"; path = "Target Support Files/Pods-WhatsNewScreen/Pods-WhatsNewScreen.release.xcconfig"; sourceTree = "<group>"; };
 		A340C08C263DD691001DCE94 /* WhatsNewScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsNewScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A340C08F263DD691001DCE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A340C091263DD691001DCE94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		A340C098263DD694001DCE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A340C09B263DD694001DCE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A340C09D263DD694001DCE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A340C0A9263DE179001DCE94 /* screenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_2.png; sourceTree = "<group>"; };
+		A340C0AA263DE179001DCE94 /* screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9824BF784A9671A1D41D6CE7 /* Pods_WhatsNewScreen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BD958C80259A6AE53761669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049A224B9226F0FB7FDFF87A /* Pods_WhatsNewScreen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A340C083263DD691001DCE94 = {
 			isa = PBXGroup;
 			children = (
 				A340C08E263DD691001DCE94 /* WhatsNewScreen */,
 				A340C08D263DD691001DCE94 /* Products */,
+				E58C2E1F3C6BC812E5F677FF /* Pods */,
+				4BD958C80259A6AE53761669 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +77,7 @@
 			children = (
 				A340C08F263DD691001DCE94 /* AppDelegate.swift */,
 				A340C091263DD691001DCE94 /* SceneDelegate.swift */,
+				A340C0A8263DE149001DCE94 /* Screenshots */,
 				A340C093263DD691001DCE94 /* ViewController.swift */,
 				A340C095263DD691001DCE94 /* Main.storyboard */,
 				A340C098263DD694001DCE94 /* Assets.xcassets */,
@@ -67,6 +87,24 @@
 			path = WhatsNewScreen;
 			sourceTree = "<group>";
 		};
+		A340C0A8263DE149001DCE94 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				A340C0AA263DE179001DCE94 /* screenshot_1.png */,
+				A340C0A9263DE179001DCE94 /* screenshot_2.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		E58C2E1F3C6BC812E5F677FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C346CE6B1C447C66EC2BD5F /* Pods-WhatsNewScreen.debug.xcconfig */,
+				36C92C509DD34AF3B06C2999 /* Pods-WhatsNewScreen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A340C0A0263DD694001DCE94 /* Build configuration list for PBXNativeTarget "WhatsNewScreen" */;
 			buildPhases = (
+				7FB662C101892AE7919E9ED6 /* [CP] Check Pods Manifest.lock */,
 				A340C088263DD691001DCE94 /* Sources */,
 				A340C089263DD691001DCE94 /* Frameworks */,
 				A340C08A263DD691001DCE94 /* Resources */,
+				F4D2094BFE6FCFB4D52ACDBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,11 +166,55 @@
 			files = (
 				A340C09C263DD694001DCE94 /* LaunchScreen.storyboard in Resources */,
 				A340C099263DD694001DCE94 /* Assets.xcassets in Resources */,
+				A340C0AB263DE179001DCE94 /* screenshot_2.png in Resources */,
+				A340C0AC263DE179001DCE94 /* screenshot_1.png in Resources */,
 				A340C097263DD691001DCE94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FB662C101892AE7919E9ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsNewScreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D2094BFE6FCFB4D52ACDBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsNewScreen/Pods-WhatsNewScreen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsNewScreen/Pods-WhatsNewScreen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsNewScreen/Pods-WhatsNewScreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A340C088263DD691001DCE94 /* Sources */ = {
@@ -283,6 +367,7 @@
 		};
 		A340C0A1263DD694001DCE94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C346CE6B1C447C66EC2BD5F /* Pods-WhatsNewScreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +387,7 @@
 		};
 		A340C0A2263DD694001DCE94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C92C509DD34AF3B06C2999 /* Pods-WhatsNewScreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
